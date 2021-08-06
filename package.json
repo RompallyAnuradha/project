@@ -4,6 +4,7 @@
   "description": "",
   "main": "/html/index1.html",
   "scripts": {
+    "start": "parcel index1.html --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RompallyAnuradha/project/issues"
   },
-  "homepage": "https://github.com/RompallyAnuradha/project#readme"
+  "homepage": "https://github.com/RompallyAnuradha/project#readme",
+  "dependencies": {
+    "parcel-bundler": "1.12.5"
+  }
 }
